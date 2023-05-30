@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    width: 750px;
+    height: 750px;
+    background-color: gray;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: lightgray;
+    border: none;
+}
+
+.tile {
+    font-weight: 900;
+    width: 26px;
+    height: 26px;
+    border: 12px solid darkgray;
+    outline: 2px solid black;
+    border-style: outset;
+
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discovered {
+    background-color: lightgrey;
+    border-color: lightgrey;
+    border-style: solid;
+
+}
+
+.flag {
+    color: red;
+    font-size: 20px;
+}
+
+.bomb {
+    color: black;
+    background-color: red;
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: purple;
+}
+
+.x5 {
+    color: blueviolet;
+}
+
+.x6 {
+    color: blueviolet;
+}
+
+.x7 {
+    color: blueviolet;
+}
+
+.x8 {
+    color: blueviolet;
+}
